@@ -1,0 +1,27 @@
+[project]
+name = "uni-agent"
+version = "0.1.0"
+description = "A通用基础Agent框架，支持工具、MCP、RAG等功能"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dashscope>=1.25.15",
+    "deepagents>=0.4.12",
+    "langchain>=1.2.14",
+    "langchain-chroma>=1.1.0",
+    "langchain-community>=0.4.1",
+    "langchain-litellm>=0.6.3",
+    "langchain-mcp-adapters>=0.2.2",
+    "langchain-text-splitters>=1.1.1",
+    "pydantic-settings>=2.0.0",
+    "pyyaml>=6.0",
+    "rank-bm25>=0.0.1",
+    "faiss-cpu>=1.7.0",
+    "sentence-transformers>=2.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.21.0",
+]

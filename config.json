@@ -1,0 +1,9 @@
+{
+  "mcp": {
+    "my-remote-mcp-server": {
+      "type": "remote",
+      "url": "https://mcp-server-demo-hydi.onrender.com/mcp",
+      "enabled": true
+    }
+  }
+}
